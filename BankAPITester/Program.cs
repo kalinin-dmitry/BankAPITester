@@ -13,11 +13,6 @@ namespace BankAPITester
         static async Task Main(string[] args)
         {
             using HttpClient httpClient = new HttpClient();
- //           httpClient.DefaultRequestHeaders.ConnectionClose = true;
- //           httpClient.DefaultRequestHeaders.ExpectContinue = false;
- //           httpClient.Timeout = TimeSpan.FromSeconds(30);
-
- //           httpClient.DefaultRequestHeaders.Add("Connection", "Keep-Alive");
 
             while (true)
             {
